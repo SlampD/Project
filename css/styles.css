@@ -1,0 +1,118 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.jumbotron {
+    
+    height: 600px;
+    background-image: url('../images/welcome_back.jpg'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main {
+    margin-top: 7em;
+}
+
+.main h1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Raleway', sans-serif;
+    padding 0 20px 0 10px;
+    
+}
+
+.btn-main {
+    position: relative;
+    margin-top: 3em;
+    height: 60px;
+    width: 280px;
+    background-color: white;
+    color="#f57a82"
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 1.3px;
+    padding: 16px 40 px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    
+    
+}
+
+.btn-main:hover {
+    position: relative;
+    margin-top: 3em;
+    height: 60px;
+    width: 280px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 1.3px;
+    padding: 16px 40 px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.services {
+    height:700px;
+    color: white;
+    background-color: #5db5a4;
+}
+
+.services line {
+    background-color: white;
+}
+
+.services h1 {
+   text-transform: uppercase;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 100;
+}

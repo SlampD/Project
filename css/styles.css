@@ -8,6 +8,7 @@ html, body {
     margin: 0 auto;
     padding: 0;
 }
+/* Navigation */
 
 #home .nav a {
     color:white;
@@ -20,7 +21,7 @@ html, body {
 
 .navbar-custom {
     color: white;
-    margin-top: 2em;
+    margin-top: 0px;
     background-color: transparent;
     border-color: transparent;
     float: right;
@@ -66,6 +67,8 @@ html, body {
 .navbar.onscroll a:hover{
     border-color: black;
 }
+
+/* Jumbotron */
 
 .jumbotron {
     height: 600px;
@@ -138,6 +141,8 @@ html, body {
     
 }
 
+/* Services */
+
 .services {
     height:700px;
     color: white;
@@ -170,9 +175,10 @@ html, body {
     margin-top: 70px;
 }
 
+
 .services .text {
     text-align: center;
-    margin-top
+    
 }
 
 .services .servimg {
@@ -194,6 +200,8 @@ html, body {
     font-family: 'Raleway';
     letter-spacing: 1px;
 }
+
+/* Team */
 
 .team {
     height:800px;
@@ -256,6 +264,8 @@ html, body {
     letter-spacing: 20px;
 }
 
+/* Skills */
+
 .skills {
     height:700px;
     margin: auto;
@@ -297,6 +307,8 @@ html, body {
 .skills .row {
     text-align: center;
 }
+
+/* Portfolio */
 
 .portfolio {
     background-color: #000000;
@@ -367,6 +379,8 @@ html, body {
     padding: 0;
     background-color: #4d4d4d
 }
+
+/* Works */
 
 .works {
     margin: 0;
@@ -558,6 +572,8 @@ html, body {
     visibility: visible;
 }
 
+/* Testimon */
+
 .testimon {
     height: 750px;
     margin: 0px;
@@ -620,6 +636,8 @@ html, body {
 .testimon #donald {
     margin-top: 2em;
 }
+
+/* Touch */
 
 .touch {
     height: 800px;
@@ -718,8 +736,6 @@ html, body {
 
 }
 
-/* Get in touch */
-
 .touch .btn {
     height: 70px;
     width: 290px;
@@ -764,3 +780,4 @@ footer img {
     margin-right: 14px;
     margin-left: 14px;
 }
+

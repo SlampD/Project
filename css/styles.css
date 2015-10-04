@@ -9,6 +9,9 @@ html, body {
     padding: 0;
 }
 
+#home .nav a {
+    color:white;
+}
 
 .nav {
     margin: 0;
@@ -21,7 +24,7 @@ html, body {
     background-color: transparent;
     border-color: transparent;
     float: right;
-    margin-right: 250px;
+    height: 70px;
 }
 
 .nav li {
@@ -33,26 +36,35 @@ html, body {
     float: right;
     margin-right: 10px;
     text-transform: uppercase;
+    padding-top: 10px;
 }
 
 .nav a {
     color: white;
     text-decoration: none;
-    background-color: transparent;
     border: 1px solid transparent;
     border-radius: 5px;
     transition: background 0.5s;
+    margin-right: 35px;
 }
 
 .nav a:hover {
     text-decoration: none;
     border: 1px solid white;
     border-radius: 5px;
-    background-color: transparent;
+    
 }
 
-.nav .past-main {
-    background-color: white;
+.navbar.onscroll{
+    background-color: #fff;
+}
+
+.navbar.onscroll a{
+    color: #000 !important;
+}
+
+.navbar.onscroll a:hover{
+    border-color: black;
 }
 
 .jumbotron {
@@ -357,12 +369,193 @@ html, body {
 }
 
 .works {
-   
+    margin: 0;
+    padding: 0;
 }
 
 .works img {
-    height: 480px;
-    width: 480px;
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: middle;
+    border: 0;
+    page-break-inside: avoid;
+    margin-top: 5px;
+}
+
+#work1 .text {
+    position: relative;
+    bottom: 10em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    visibility: hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#work1:hover .text {
+    visibility: visible;
+}
+
+#work1:hover .image {
+    -webkit-filter: blur(7px) brightness(0.5);
+    -moz-filter: blur(7px) brightness(0.5);
+    -o-filter: blur(7px) brightness(0.5);
+    -ms-filter: blur(7px) brightness(0.5);
+    filter: blur(7px) brightness(0.5);
+}
+
+#work1:hover .text {
+    visibility: visible;
+}
+
+#work2 .text {
+    position: relative;
+    bottom: 8em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    visibility: hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#work2:hover .text {
+    visibility: visible;
+}
+
+#work2:hover .image {
+    -webkit-filter: blur(7px) brightness(0.5);
+    -moz-filter: blur(7px) brightness(0.5);
+    -o-filter: blur(7px) brightness(0.5);
+    -ms-filter: blur(7px) brightness(0.5);
+    filter: blur(7px) brightness(0.5);
+}
+
+#work2:hover .text {
+    visibility: visible;
+}
+
+#work3 .text {
+    position: relative;
+    bottom: 8em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    visibility: hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#work3:hover .text {
+    visibility: visible;
+}
+
+#work3:hover .image {
+    -webkit-filter: blur(7px) brightness(0.5);
+    -moz-filter: blur(7px) brightness(0.5);
+    -o-filter: blur(7px) brightness(0.5);
+    -ms-filter: blur(7px) brightness(0.5);
+    filter: blur(7px) brightness(0.5);
+}
+
+#work3:hover .text {
+    visibility: visible;
+}
+
+#work4 .text {
+    position: relative;
+    bottom: 10em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    visibility: hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#work4:hover .text {
+    visibility: visible;
+}
+
+#work4:hover .image {
+    -webkit-filter: blur(7px) brightness(0.5);
+    -moz-filter: blur(7px) brightness(0.5);
+    -o-filter: blur(7px) brightness(0.5);
+    -ms-filter: blur(7px) brightness(0.5);
+    filter: blur(7px) brightness(0.5);
+}
+
+#work4:hover .text {
+    visibility: visible;
+}
+
+#work5 .text {
+    position: relative;
+    bottom: 8em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    visibility: hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#work5:hover .text {
+    visibility: visible;
+}
+
+#work5:hover .image {
+    -webkit-filter: blur(7px) brightness(0.5);
+    -moz-filter: blur(7px) brightness(0.5);
+    -o-filter: blur(7px) brightness(0.5);
+    -ms-filter: blur(7px) brightness(0.5);
+    filter: blur(7px) brightness(0.5);
+}
+
+#work5:hover .text {
+    visibility: visible;
+}
+
+#work6 .text {
+    position: relative;
+    bottom: 8em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    visibility: hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#work6:hover .text {
+    visibility: visible;
+}
+
+#work6:hover .image {
+    -webkit-filter: blur(7px) brightness(0.5);
+    -moz-filter: blur(7px) brightness(0.5);
+    -o-filter: blur(7px) brightness(0.5);
+    -ms-filter: blur(7px) brightness(0.5);
+    filter: blur(7px) brightness(0.5);
+}
+
+#work6:hover .text {
+    visibility: visible;
 }
 
 .testimon {

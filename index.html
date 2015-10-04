@@ -13,7 +13,59 @@
     <script scr="js/bootstrap.min.js" type="text/javascript"></script>
     <script src="js/jquery.circliful.min.js"></script>
     <script src="js/jquery.appear.js"></script>
-    <script src="js/script.js"></script>
+
+    <!--    Корявый скрипт
+
+<script>
+        
+        $(document).ready(function(){       
+   var scroll_start = 0;
+   var startchange = $('#home');
+   var offset = startchange.offset();
+    if (startchange.length){
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $('.navbar').css('background-color', 'white');
+          $('.navbar a').css('color', 'black');
+          $('.navbar a').hover(function() {
+            $(this).css('border-color', 'black')
+          });
+       }
+       else {
+          $('.navbar').css('background-color', 'transparent');
+          $('.navbar a').css('color', 'white');
+          $('.navbar a').hover(function() {
+            $(this).css('border-color', 'white')
+          });
+          $('.navbar a').css('border-color', 'transparent');  
+        
+       }
+   });
+    }
+});
+        
+    </script> 
+
+-->
+    <script>
+        $(document).ready(function(){       
+   var scroll_start = 0;
+   var startchange = $('#home');
+   var offset = startchange.offset();
+    if (startchange.length){
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $('.navbar').addClass('onscroll');
+       }
+       else {
+          $('.navbar').removeClass('onscroll');       }
+   });
+    }
+});
+    </script>
+    
 
 </head>
     
@@ -30,7 +82,7 @@
               <div class="container-fluid">
                 <div>
                   <ul class="nav navbar-nav pull-right">
-                    <li><a class="page-scroll" href="#touch">Contact</a></li>
+                    <li><a href="#touch">Contact</a></li>
                     <li><a href="#testimon">Blog</a></li> 
                     <li><a href="#portfolio">Work</a></li>
                     <li><a href="#services">About</a></li> 
@@ -40,15 +92,7 @@
               </div>
             </nav>
             
-    <!--         <ul class="nav">
-                 <li><a href="#">Contact</a></li>
-                 <li><a href="#">Blog</a></li>
-                 <li><a href="#">Work</a></li>
-                 <li><a href="#">About</a></li>
-                 <li><a href="#">Home</a></li>
-            </ul> -->
-            
-            <div class="main">
+        <div id="main" class="main">
                 <h1>Hi there! We are the new kids on the block<br> and we build awesome websites and mobile apps</h1> 
                     <div class="row">
                         <div class="span12">
@@ -212,27 +256,33 @@
     </div>
     
     <div class="works">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4">
-                    <img src="images/work1.jpg">
+                <div id="work1" class="col-lg-4">
+                    <img class="image" src="images/work1.jpg">
+                    <p class="text">Isometric<br> Perspective<br> Mock-Up</p>
                 </div>
-                <div class="col-md-4">
-                    <img src="images/work2.jpg">
+                <div id="work2" class="col-lg-4">
+                    <img class="image" src="images/work2.jpg">
+                    <p class="text">Time Zone App UI</p>
                 </div>
-                <div class="col-md-4">
-                    <img src="images/work3.jpg">
+                <div id="work3" class="col-lg-4">
+                    <img class="image" src="images/work3.jpg">
+                    <p class="text">Viro Media Players UI</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
-                    <img src="images/work4.jpg">
+                <div id="work4" class="col-md-4">
+                    <img class="image" src="images/work4.jpg">
+                    <p class="text">Isometric<br> Perspective<br> Mock-Up</p>
                 </div>
-                <div class="col-md-4">
-                    <img src="images/work5.jpg">
+                <div id="work5" class="col-md-4">
+                    <img class="image" src="images/work5.jpg">
+                    <p class="text">Time Zone App UI</p>
                 </div>
-                <div class="col-md-4">
-                    <img src="images/work6.jpg">
+                <div id="work6" class="col-md-4">
+                    <img class="image" src="images/work6.jpg">
+                    <p class="text">Viro Media Players UI</p>
                 </div>
             </div>
         </div>            
@@ -340,14 +390,16 @@
         
 
     $( document ).ready(function() {
+        
             $('#myStat1').circliful();
             $('#myStat2').circliful();
             $('#myStat3').circliful();
             $('#myStat4').circliful();
-            $('.header').script();
+  
             
         });
   
     </script>
-
+    
+ 
 </html>
